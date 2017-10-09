@@ -1,0 +1,14 @@
+<!-- <form> -->
+  <!-- For loop through all questions -->
+  <!--  -->
+<!-- </form> -->
+
+<h2>Questions:</h2>
+<div *ngFor="let question of questions">
+  
+  <h3>{{question.description}}</h3>
+  <select multiple>
+    <option *ngFor="let variant of question.variants" value="{{variant.index}}">{{variant.description}}</option>
+  </select>
+</div>
+<button (click)="saveExpertAnswer()">Submit</button>

@@ -265,7 +265,8 @@ public class ExpertCompetenceEngineImpl implements ExpertCompetenceEngine {
 
         ExpertCompetenceEngine engine = new ExpertCompetenceEngineImpl();
 
-        List<ExpertCompetence> expertCompetences = engine.countExpertCompetence(experts, 5);
+//        List<ExpertCompetence> expertCompetences = engine.countExpertCompetence(experts, 5);
+
 
     }
 }

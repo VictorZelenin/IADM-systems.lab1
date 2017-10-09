@@ -1,0 +1,8 @@
+.init-block {
+    position: relative;
+    top: 250px;
+}
+
+input[type=number]{
+    width: 130px;
+}
